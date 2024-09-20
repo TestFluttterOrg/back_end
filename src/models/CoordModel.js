@@ -24,4 +24,4 @@ const coordSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model("test", coordSchema)
+module.exports = mongoose.model("coords", coordSchema)

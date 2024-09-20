@@ -5,8 +5,8 @@ const coordService = {
         try {
             const result = await Coord.create({
                 notes: notes,
-                lng: latitude,
-                lat: longitude,
+                lng: longitude,
+                lat: latitude,
             });
             return {
                 isSuccess: true,
