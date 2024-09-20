@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const coordSchema = new Schema({
     notes: {
         type: String,
-        required: true,
+        required: false,
     },
     lng: {
         type: String,
